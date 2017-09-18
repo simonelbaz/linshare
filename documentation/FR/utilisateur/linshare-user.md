@@ -24,11 +24,27 @@ Ce guide d'utilisation est pour les versions 2.x de LinShare.
 
 <a name="presentation">
 
-#### Présentation des différents menus
+#### Accès à Linshare
+
+L'URL d'accès à Linshare est fournie par l'équipe d'administration de Linshare.
+Pour la documentation, celle-ci est: http://linshare-user.metzmet.fr
+
+![Alt text](../../img/loginuser.png?raw=true "Page de login")
+
+En haut, à droite de la page, le menu déroulant permet de sélectionner la langue de Linshare:
+
+* Français
+* Anglais
+
+L'invite de connexion est renseignée par:
+
+* l'adresse mail de l'utilisateur
+* son mot de passe
+
+Appuyer sur le bouton 'SE CONNECTER' pour accéder à Linshare.
 
 </a>
 
-Lorsque vous vous connectez sur l'interface utilisateur de LinShare, une page de connexion s'affiche, c'est à ce moment qu'il vous faut choisir la langue de l'application, en cliquant sur le drapeau en haut à droite de l'écran.
 Une fois connecté, vous arrivez sur la page d'accueil de votre compte.
 
 <a name="home">
@@ -36,6 +52,9 @@ Une fois connecté, vous arrivez sur la page d'accueil de votre compte.
 ##### Accueil
 
 </a>
+
+La page principale est la suivante:
+![Alt text](../../img/mainpageuser.png?raw=true "Page d'accueil")
 
 Cette page d'accueil est une page de bienvenue, avec trois liens :
 
@@ -49,7 +68,11 @@ Cette page d'accueil est une page de bienvenue, avec trois liens :
 
 </a>
 
-L'espace personnel est divisé en deux parties : vos fichiers et les fichiers que l'on a partagé avec vous.
+L'espace personnel est divisé en deux parties :
+* vos fichiers
+* les fichiers que l'on a partagé avec vous. (Partages reçus)
+
+![Alt text](../../img/myspaceuser.png?raw=true "Espace personnel")
 
 <a name=my-files>
 
@@ -61,9 +84,15 @@ Dans votre page **Mes fichiers**, sont listés tous les fichiers que vous avez d
 Afin de déposer un nouveau fichier, vous avez deux choix :
 
 - Cliquer sur le bouton **+** en haut à gauche de l'écran.
+![Alt text](../../img/addfileuser.png?raw=true "Ajouter un fichier")
 - Glisser-déposer votre fichier depuis votre explorateur de fichiers vers l'espace personnel (le cercle central devient bleu).
+![Alt text](../../img/dragndropuser.png?raw=true "Ajouter un fichier")
+
+**Remarque:** Le dépôt de dossier dans l'espace de l'utilisateur importe seulement les fichiers.
+Les répertoires ne sont pas importés.
 
 Lorsque vous survolez un fichier déposé, 3 logos grisés apparaissent sur le côté droit. De gauche à droite, ces logos correspondent à :
+![Alt text](../../img/hoverfileuser.png?raw=true "Survoler un fichier")
 
 - Afficher les informations sur le fichier.
 - Partager le fichier avec d'autres utilisateurs (internes ou externes, voir <a name="share">Partage</a>).
@@ -75,6 +104,8 @@ Lorsque vous survolez un fichier déposé, 3 logos grisés apparaissent sur le c
 
 </a>
 
+![Alt text](../../img/myshareuser.png?raw=true "Partages reçus")
+
 Dans cette section, vous retrouverez tous les fichiers qui ont été partagés avec vous.
 
 Vous retrouverez la plupart des fonctionnalités de la section **Mes fichiers**.
@@ -85,9 +116,13 @@ Vous retrouverez la plupart des fonctionnalités de la section **Mes fichiers**.
 
 </a>
 
+![Alt text](../../img/uploadinprogressuser.png?raw=true "Dépôts en cours")
+
 Dans cette section, vous retrouverez tous les transferts en cours de votre Espace Personnel et Espace Commun (voir [Espace commun](#shared-space)).
 
-Afin de visualiser les documents en cours de transfert vers l'espace personnel, vous devez cliquer sur l'onglet "Esapce personnel" en haut à droite, et sur "Espace commun" pour l'espace commun.
+Afin de visualiser les documents en cours de transfert vers l'espace personnel, vous devez cliquer sur l'onglet "Espace personnel" en haut à droite, et sur "Espace commun" pour l'espace commun.
+
+![Alt text](../../img/switchmyspacesharedspace.png?raw=true "Bascule entre les espaces")
 
 Il est possible de gérer les dépôts depuis cette section, les différentes actions sont situées en haut à droite, à côté des onglets "Espace personnel" et "Espace commun". Ces dernières sont les suivantes :
 
@@ -102,8 +137,12 @@ Il est possible de gérer les dépôts depuis cette section, les différentes ac
 
 </a>
 
+![Alt text](../../img/workspaceuser.png?raw=true "Espaces partagés")
+
 > La section **Espaces partagés** réunit les groupes de travail. Ces groupes de travail sont des zones de partage avec des utilisateurs internes ou invités (voir [Comptes invités](#guests)), disposant d'un compte LinShare.
 Chaque utilisateur du groupe de travail voit l'ensemble des fichiers présents.
+
+![Alt text](../../img/workspacefunctionalitiesuser.png?raw=true "Fonctionnalités espaces partagés")
 
 _**Membres**_
 
@@ -115,9 +154,13 @@ Pour celà, plusieurs options sont possibles :
 
 Une barre latérale apparaîtra sur la droite, à partir de là vous pourrez ajouter des membres, en précisant leurs droits d'utilisation : lecture, écriture ou administration (ayant le droit d'ajouter et de supprimer des membres).
 
+![Alt text](../../img/workspaceaddmemberuser.png?raw=true "Fonctionnalités ajout de membre dans espaces partagés")
+
 _**Activité**_
 
 Dans l'onglet "Activités" de cette barre latérale, on peut voir l'ensemble des actions effectuées dans le groupe de travail (ajout de fichier, partage, suppression de fichier, création de dossier, déplacement de fichier, etc).
+
+![Alt text](../../img/workspaceactivitiesuser.png?raw=true "Activités dans espaces partagés")
 
 _**Dossiers**_
 
@@ -131,7 +174,11 @@ Pour ajouter un dossier, il faut cliquer sur le bouton **+** en haut à gauche p
 
 </a>
 
-Dans cette section, vous pouvez soit créer des listes de contacts, soit gérer des invités.
+Dans cette section, vous pouvez:
+- créer des listes de contacts
+- gérer des invités.
+
+![Alt text](../../img/administrationuser.png?raw=true "Administration")
 
 <a name="contact-lists">
 
@@ -143,18 +190,27 @@ Pour ajouter une liste de contacts, cliquez sur le bouton **+** en haut à gauch
 Cette liste peut être privée ou publique (visible ou pas par les autres utilisateurs du même domaine).
 Pour gérer cette liste de contacts, vous pouvez utiliser les boutons qui apparaissent au survol de la liste.
 
+![Alt text](../../img/newcontactlistuser.png?raw=true "Nouvelle liste de contacts")
+
+![Alt text](../../img/listecontactsadminuser.png?raw=true "Modification de la nouvelle liste de contacts")
+
 <a name="guests">
 
 ##### Comptes invités
 
 </a>
 
-
 Les comptes invités sont les comptes des utilisateurs externes que vous pourrez, une fois ajoutés, ajouter à une liste de contacts, à un groupe de travail, ou encore permettre de partager des fichiers.
+
+![Alt text](../../img/newguestuser.png?raw=true "Comptes invités")
+
+![Alt text](../../img/newguestadduser.png?raw=true "Ajout d'un compte invités")
 
 <a name="activity-logs">
 
 ##### Historiques des activités
+
+![Alt text](../../img/audituser.png?raw=true "Historique d'activités")
 
 Dans toutes les sections contenant des fichiers ([Mes fichiers](#my-files), [Mes partages reçus](#received-shares) et [Espace commun](#shared-spaces)), l'historique des activités est disponible dans le panneau latéral de droite (en cliquant sur le logo ![User logo](../../img/adduser.png)).
 
